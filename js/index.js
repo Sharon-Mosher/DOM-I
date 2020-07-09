@@ -69,6 +69,7 @@ topH4[0].textContent = 'Features'
 topText[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 topH4[0].style.fontSize = "2rem"
 topH4[0].style.color = "blue"
+
 topH4[1].textContent = 'About'
 topText[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, ininterdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis'
 topH4[1].style.fontSize = "2rem"
@@ -76,8 +77,10 @@ topH4[1].style.color = "red"
 
 const middleImg = document.querySelector('#middle-img')
 middleImg.src = "img/mid-page-accent.jpg"
+
 const bottomH4 = document.querySelectorAll('.bottom-content h4')
 const bottomText = document.querySelectorAll('.bottom-content p')
+
 bottomH4[0].textContent = 'Services'
 bottomText[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio,in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 bottomH4[0].style.fontSize = "2rem"
@@ -99,11 +102,16 @@ contactH4.textContent = 'Contact'
 contactH4.style.fontSize = "2rem"
 contactH4.style.color = "teal"
 contactText[0].innerHTML = '123 Way 456 Street </br> Somewhere, USA'
+contactText[0].style.color = 'lawnGreen'
 contactText[1].textContent = '1 (888) 888-8888'
+contactText[1].style.color = 'magenta'
 contactText[2].textContent = 'sales@greatidea.io'
+contactText[2].style.color = 'mediumVioletRed'
 
 const footerText = document.querySelector('footer p')
 footerText.textContent = 'Copyright Great Idea! 2018'
+footerText.style.fontSize = "1rem"
+footerText.style.color = "lime"
 
 links.forEach((item) => {
 item.style.color = 'green'
