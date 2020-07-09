@@ -93,3 +93,14 @@ links.forEach((item) => {
 item.style.color = 'green'
 });
 
+const nav = document.querySelector('nav')
+
+const home = document.createElement('a')
+home.textContent = 'Home'
+nav.prepend(home)
+home.style.color ='green'
+
+const cat = document.createElement('a')
+cat.textContent = 'Categories'
+nav.appendChild(cat)
+cat.style.color = 'green'
